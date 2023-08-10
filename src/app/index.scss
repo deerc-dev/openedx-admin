@@ -1,0 +1,118 @@
+$primary: #8b3781;
+$danger: #d93102;
+
+@import 'bootstrap/scss/bootstrap';
+
+body {
+	color: $primary;
+}
+
+.actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	justify-content: center;
+}
+
+.action {
+	min-height: 200px;
+	width: 200px;
+	font-size: 1.2em;
+	padding: 1rem;
+}
+
+.input-group,
+.form-check {
+	margin-bottom: 1em;
+}
+
+.btn-danger,
+.btn-danger:hover {
+	color: white;
+}
+
+.table {
+	color: $primary;
+}
+
+.card-header {
+	font-size: 1.5em;
+}
+
+.container-md {
+	max-width: 800px;
+}
+
+.locale-image {
+	height: 2em;
+}
+
+.locale {
+	border: none;
+	background-color: transparent;
+	width: 50px;
+}
+
+.results {
+	margin-top: 1em;
+}
+
+.input-inline {
+	display: inline-block;
+}
+
+.checkbox-list__header {
+	display: flex;
+	align-items: center;
+}
+
+.checkbox-list__title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.checkbox-list__actions {
+	display: inline-flex;
+	gap: 10px;
+}
+
+.enroll-status {
+	.username {
+		margin-left: 10px;
+		margin-right: auto;
+	}
+	display: flex;
+}
+
+.arrow {
+	border: solid currentColor;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+	height: 0.5em;
+	width: 0.5em;
+}
+
+.left {
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+}
+
+.navbar-brand {
+	display: flex;
+	align-items: center;
+	gap: 0.2em;
+
+	&:hover {
+		color: hsl(0, 0%, 90%);
+	}
+}
+
+.page {
+	margin-top: 2rem;
+}
+
+.enrollment-modal-buttons {
+	display: flex;
+	gap: 0.5em;
+}

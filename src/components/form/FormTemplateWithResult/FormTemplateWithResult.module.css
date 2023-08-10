@@ -1,0 +1,12 @@
+.optional__field {
+	display: none;
+}
+
+:root {
+	background-color: red;
+}
+
+.optional__toggle {
+	display: initial;
+	width: 400px;
+}

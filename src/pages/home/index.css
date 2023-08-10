@@ -1,0 +1,9 @@
+.home .lander {
+	text-align: center;
+}
+
+.lander-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
